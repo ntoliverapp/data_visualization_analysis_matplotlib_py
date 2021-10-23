@@ -14,4 +14,6 @@ plt.pie(slices, labels=labels, colors=colors, wedgeprops={'edgecolor': 'white'})
 
 plt.tight_layout()
 
+plt.savefig('pie_chart_test.png')
+
 plt.show()
