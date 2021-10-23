@@ -5,10 +5,11 @@ plt.style.use('dark_background')
 
 plt.title('Pie Chart Slices')
 
-slices = [60,20,20]
-labels = ['Sixty', 'Twenty', 'Twenty']
+slices = [50,20,20, 10]
+labels = ['Fifty', 'Twenty', 'Twenty', 'Ten']
+colors = ['orange', 'green', 'white', 'blue']
 
-plt.pie(slices, labels=labels)
+plt.pie(slices, labels=labels, colors=colors, wedgeprops={'edgecolor': 'white'})
 
 
 plt.tight_layout()
